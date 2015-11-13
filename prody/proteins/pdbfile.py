@@ -89,6 +89,7 @@ def parsePDB(pdb, **kwargs):
         If needed, PDB files are downloaded using :func:`.fetchPDB()` function.
     """
 
+    print "Indira was in parsePDB\n"
     title = kwargs.get('title', None)
     if not os.path.isfile(pdb):
         if len(pdb) == 4 and pdb.isalnum():

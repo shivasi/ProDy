@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """This module defines functions for accessing wwPDB servers."""
 
+# addition test by Indira
+
 from os import getcwd
 from glob import glob
 from os.path import sep as pathsep
